@@ -2,7 +2,7 @@ def call (String name){
   if ("${name}" == "gangadhar"){
      sh "Hello ${name}."
   }
-  elif("${name}" == "badsha"){
+  else if("${name}" == "badsha"){
      sh "Hello ${name}."
   }
 }
