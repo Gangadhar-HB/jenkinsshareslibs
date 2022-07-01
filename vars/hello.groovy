@@ -1,7 +1,7 @@
 def call (String name){
-  if (${name} == 'gangadhar'){
+  if ('${name}' == 'gangadhar'){
      sh "Hello ${name}."
-  elif(${name} == 'badsha'){
+  elif('${name}' == 'badsha'){
      sh "Hello ${name}."
   }
 }
