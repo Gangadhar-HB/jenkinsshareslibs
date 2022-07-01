@@ -1,8 +1,8 @@
 def call (Map config = [:] ){
   if ("${config}" == "gangadhar"){
-     sh "Hello ${name}."
+     sh "Hello ${config}."
   }
   else if("${config}" == "badsha"){
-     sh "Hello ${name}."
+     sh "Hello ${config}."
   }
 }
