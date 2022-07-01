@@ -1,3 +1,7 @@
-def call (String name, String dayofweek ){
-  sh "Hello ${name}. today is ${dayofweek}."
+def call (String name){
+  if (${name} == 'gangadhar'){
+     sh "Hello ${name}."
+  elif(${name} == 'badsha'){
+     sh "Hello ${name}."
+  }
 }
