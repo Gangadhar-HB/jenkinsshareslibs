@@ -5,6 +5,6 @@ if  ("${stageName}" == "Install")
   }
 else if ("${stageName}" == "Build")
 {
-  sh " npm run build
+  sh " npm run build"
 }
 }
