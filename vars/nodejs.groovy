@@ -1,7 +1,7 @@
 def call (String stageName){
 if  ("${stageName}" == "Install")
   {
-    sh " npm install"
+    sh " npm install --legacy-peer-deps"
   }
 else if ("${stageName}" == "Build")
 {
